@@ -3,6 +3,7 @@ var router = express.Router();
 //i add some model and package form here
 const userModel = require("./users");
 const postModel = require("./post");
+//this will help us to save
 const passport = require('passport');
 const upload = require('./multer');
 //This two lines will help us to login user
